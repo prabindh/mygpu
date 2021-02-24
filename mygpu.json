@@ -1,0 +1,15 @@
+mygpulist =
+{
+    "family":[
+            {"name": "GPU",
+            "gpus":
+            [
+                {"name":"NVIDIA Quadro M1000M", "magic":"compute_50,sm_50"},
+                {"name":"NVIDIA Tesla T10", "magic":"compute_75,sm_75"},
+                {"name":"GeForce GTX 1070", "magic":"compute_61,sm_61"},
+                {"name":"NVIDIA GeForce RTX 2070", "magic":"compute_75,sm_75"},
+                {"name":"NVIDIA GeForce RTX 2080", "magic":"compute_75,sm_75"},
+            ]
+        }
+    ]
+};

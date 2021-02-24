@@ -1,0 +1,21 @@
+<html>
+   <head><meta charset="us-ascii">
+   <title>MyGPU - Get Compute Capability of Nvidia GPU</title>
+      <style>
+         #mygpu-renderer-info{border:1px solid green;width: fit-content;width: -moz-fit-content;}
+      </style>
+   </head>
+   <body onload="MyGPU()">     
+      <canvas id = "mygpucanvas" width = "1" height = "1"></canvas>
+      <div id="mygpu-info"></div>
+      <p>
+    <div id="mygpu-renderer-info"></div>
+    <p>
+    <button id="copy-button" onclick="CopyToClipBoard()">Copy To Clipboard</button>
+    
+      <script src="./mygpu.js"></script>
+      <script type="text/javascript" src="./mygpu.json"></script>
+      
+           
+   </body>
+</html>

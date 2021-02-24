@@ -22,6 +22,8 @@ Contributions welcome.
 
 -- On Hybrid systems/ notebooks with multiple GPUs - Use Nvidia Control Panel to select the Nvidia Processor for the browser, for example by referring to https://alteredqualia.com/texts/optimus/ 
 
+-- On Tegra systems, Chrome seems to be using SwiftShader by default
+
 ## My GPU is not listed
 
 - File an issue in this repository

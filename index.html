@@ -5,17 +5,26 @@
          #mygpu-renderer-info{border:1px solid green;width: fit-content;width: -moz-fit-content;}
       </style>
    </head>
-   <body onload="MyGPU()">     
+   <body onload="MyGPU()">
+   <h1>MyGPU</h1>
+   <h2>Get Compute Capability of Nvidia GPU</h2>
       <canvas id = "mygpucanvas" width = "1" height = "1"></canvas>
-      <div id="mygpu-info"></div>
-      <p>
     <div id="mygpu-renderer-info"></div>
     <p>
     <button id="copy-button" onclick="CopyToClipBoard()">Copy To Clipboard</button>
+    <p>
+    <p>
+      <div id="mygpu-info"></div>
+      <p>
+    <div id="Disclaimer"><br>
+    Disclaimer: <br>
+    Author or contributors not responsible for any direct, indirect, or consequential loss or damage resulting from any usage of this data. This is not an official Nvidia product. Sourced from public material at <a href="https://en.wikipedia.org/wiki/CUDA">https://en.wikipedia.org/wiki/CUDA</a> and <a href="https://developer.nvidia.com/cuda-gpus#compute">https://developer.nvidia.com/cuda-gpus#compute</a>. Only covers GPUs with CUDA compute capability > 5.0. 
+    <p>Issues to be raised at <a href="https://github.com/prabindh/mygpu/issues">https://github.com/prabindh/mygpu</a>
+   
+    </div>
     
       <script src="./mygpu.js"></script>
       <script type="text/javascript" src="./mygpu.json"></script>
       
-           
    </body>
 </html>

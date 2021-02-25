@@ -9,7 +9,7 @@ function RendererMagic(r)
     {
         var gpu = json.family[0].gpus[i];
         var name = gpu.name;
-        if (r.search(name) != -1)
+        if (r.toLowerCase().search(name.toLowerCase()) != -1)
         {
             gpurendererInfo.innerText = gpu.magic;
             return;

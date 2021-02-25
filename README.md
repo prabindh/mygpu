@@ -37,3 +37,14 @@ Contributions welcome.
 - https://privacycheck.sec.lrz.de/active/fp_wg/fp_webgl.html
 
 - https://github.com/timvanscherpenzeel/detect-gpu
+
+## Disclaimer
+
+Author or contributors not responsible for any direct, indirect, or consequential loss or damage resulting from any usage of this data. 
+
+This is not an official Nvidia product.
+
+Sourced from public material at https://en.wikipedia.org/wiki/CUDA and https://developer.nvidia.com/cuda-gpus#compute. Only covers GPUs with CUDA compute capability > 5.0.
+
+Issues to be raised at https://github.com/prabindh/mygpu
+   

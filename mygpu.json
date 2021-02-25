@@ -98,6 +98,8 @@ mygpulist =
                 {"name":"TITAN RTX", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"Tesla T4", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"Tesla T10", "magic":"compute_75,sm_75", "id": "not set"},
+                {"name":"GTX 1650", "magic":"compute_75,sm_75", "id": "not set"},
+                {"name":"GTX 1660", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"RTX 1650", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"RTX 1660", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"RTX 2060", "magic":"compute_75,sm_75", "id": "not set"},

@@ -32,17 +32,19 @@ https://github.com/prabindh/mygpu/blob/main/mygpu.json
 
 ### In Makefiles <a name="makefiles"></a>
 
+Enter only the compute_xx string obtained above, in the `arch=` and `code=` fields below
+
 ````
-ARCH= -gencode arch=compute_52,code=compute_52
+ARCH= -gencode arch=compute_xx,code=compute_xx
 $(OBJDIR)%.o: %.cu $(DEPS)
     $(NVCC) $(ARCH) $(COMMON) --compiler-options "$(CFLAGS)" -c $< -o $@
 ````
 
 ### In Visual Studio (For CUDA Runtime Project Type only) <a name="vstudio"></a>
 
-Enter the obtained string in this field
+Enter the complete string obtained above, in this field
 
-`Configuration Properties --> CUDA C/C++ --> Device --> Code Generation`
+`Configuration Properties --> CUDA C/C++ --> Device --> Code Generation` --> compute_xx,sm_xx
 
 ## Requirements <a name="reqs"></a>
 
@@ -67,6 +69,8 @@ Enter the obtained string in this field
 - https://privacycheck.sec.lrz.de/active/fp_wg/fp_webgl.html
 
 - https://github.com/timvanscherpenzeel/detect-gpu
+
+- https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html
 
 ## Disclaimer <a name="disclaimer"></a>
 

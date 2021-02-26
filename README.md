@@ -32,7 +32,9 @@ https://github.com/prabindh/mygpu/blob/main/mygpu.json
 
 ### In Makefiles <a name="makefiles"></a>
 
--gencode arch=compute_50,code=[sm_50,compute_50]
+`ARCH= -gencode arch=compute_52,code=compute_52`
+`$(OBJDIR)%.o: %.cu $(DEPS)`
+`    $(NVCC) $(ARCH) $(COMMON) --compiler-options "$(CFLAGS)" -c $< -o $@`
 
 ### In Visual Studio (For CUDA Runtime Project Type only) <a name="vstudio"></a>
 

@@ -3,12 +3,23 @@
 Obtain compute capability information about Nvidia GPU
 
 # Table of contents
-1. [Getting](#howto)
-2. [Using](#usage)
-3. [Requirements](#reqs)
+1. [Requirements](#reqs)
+2. [Getting](#howto)
+3. [Using](#usage)
 4. [Bugs](#unlisted)
 5. [References](#references)
-5. [Disclaimer](#disclaimer)
+6. [Disclaimer](#disclaimer)
+
+## Requirements <a name="reqs"></a>
+
+- WebGL supported browser
+
+- Nvidia GPU and recent drivers
+
+-- On Hybrid systems/ notebooks with multiple GPUs - Refer https://alteredqualia.com/texts/optimus/ 
+
+-- On Tegra systems, Chrome seems to be using SwiftShader by default, so perform the manual step of identification (#manual)
+
 
 ## How to get compute capability <a name="howto"></a>
 
@@ -16,7 +27,9 @@ Obtain compute capability information about Nvidia GPU
 
 Browse to this link - https://gpupowered.org/mygpu/
 
-If the GPU is supported and the browser is configured to use the Nvidia processor, the arch info will be displayed in the same page.
+The compute information will be displayed in the same page
+
+![Screenshot](./mygpu.png)
 
 ### Manually <a name="manual"></a>
 
@@ -45,16 +58,6 @@ $(OBJDIR)%.o: %.cu $(DEPS)
 Enter the complete string obtained above, in this field
 
 `Configuration Properties --> CUDA C/C++ --> Device --> Code Generation` --> compute_xx,sm_xx
-
-## Requirements <a name="reqs"></a>
-
-- WebGL supported browser
-
-- Nvidia GPU 
-
--- On Hybrid systems/ notebooks with multiple GPUs - Use Nvidia Control Panel to select the Nvidia Processor for the browser, for example by referring to https://alteredqualia.com/texts/optimus/ 
-
--- On Tegra systems, Chrome seems to be using SwiftShader by default, so perform the manual step of identification as above
 
 ## Bug/Unlisted GPU <a name="unlisted"></a>
 

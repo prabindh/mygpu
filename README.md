@@ -56,9 +56,9 @@ Enter the complete string obtained above, in this field
 
 -- On Tegra systems, Chrome seems to be using SwiftShader by default, so perform the manual step of identification as above
 
-## My GPU is not listed <a name="unlisted"></a>
+## Bug/Unlisted GPU <a name="unlisted"></a>
 
-- File and issue at https://github.com/prabindh/mygpu
+- File an issue at https://github.com/prabindh/mygpu
 
 ## References <a name="references"></a>
 

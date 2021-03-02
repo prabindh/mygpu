@@ -81,5 +81,6 @@ Author or contributors not responsible for any direct, indirect, or consequentia
 
 This is not an official Nvidia product.
 
-Sourced from public material at https://en.wikipedia.org/wiki/CUDA and https://developer.nvidia.com/cuda-gpus#compute. Only covers GPUs with CUDA compute capability > 5.0.
-   
+Sourced from public material at https://en.wikipedia.org/wiki/CUDA and https://developer.nvidia.com/cuda-gpus#compute. 
+
+Only covers GPUs with CUDA compute capability > 5.0. For ex, these are not listed (GeForce GTX 680,GTX 590,GTX 580,GTX 570,GTX 560 Ti,GTX 560,GT 440,GTX 480,GTX 470,GTX 465,GTX 295,GTX 280/GTX 285,GTX 260,210,GT 240,GT 220,GT 130,GT 120,GTS 250,9800 GX2,9800 GTX,9800 GT,9600 GSO,9600 GT,8800 GTX/Ultra,8800 GT,8800 GTS,8600 GT/GTS,8400 GS/GT)

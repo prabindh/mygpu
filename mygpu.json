@@ -86,6 +86,7 @@ mygpulist =
                 
                 {"name":"Jetson AGX Xavier", "magic":"compute_72,sm_72", "id": "not set"},
 
+                {"name":"GeForce RTX T10-8", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"T 1000", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"T 2000", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"Quadro RTX 3000", "magic":"compute_75,sm_75", "id": "not set"},

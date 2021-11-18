@@ -96,6 +96,8 @@ mygpulist =
                 {"name":"Quadro RTX 8000", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"Quadro T1000", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"Quadro T2000", "magic":"compute_75,sm_75", "id": "not set"},
+                {"name":"T600", "magic":"compute_75,sm_75", "id": "not set"},
+                {"name":"T400", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"TITAN RTX", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"Tesla T4", "magic":"compute_75,sm_75", "id": "not set"},
                 {"name":"Tesla T10", "magic":"compute_75,sm_75", "id": "not set"},
@@ -120,6 +122,8 @@ mygpulist =
                 {"name":"RTX 3080", "magic":"compute_86,sm_86", "id": "not set"},
                 {"name":"RTX 3090", "magic":"compute_86,sm_86", "id": "not set"},
                 {"name":"RTX A6000", "magic":"compute_86,sm_86", "id": "not set"},
+                {"name":"RTX A5000", "magic":"compute_86,sm_86", "id": "not set"},
+                {"name":"RTX A4000", "magic":"compute_86,sm_86", "id": "not set"},
             ]
         }
     ]

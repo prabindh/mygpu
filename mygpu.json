@@ -2,129 +2,2665 @@ mygpulist =
 {
     "family":[
             {"name": "GPU",
-            "gpus":
-            [
-                {"name":"GTX 750", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GTX 840M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GTX 845M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GTX 850M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GTX 950M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GTX 960M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"Quadro M600M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"Quadro M1000M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"Quadro M1200", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"Quadro M520", "magic":"compute_50,sm_50", "id": "not set"},
-                
-                {"name":"Quadro K2200", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"Quadro M520", "magic":"compute_50,sm_50", "id": "not set"},
-                
-                {"name":"Quadro M2000M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"Quadro M620", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GeForce 830M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GeForce 840M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GeForce 930M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GeForce 940M", "magic":"compute_50,sm_50"},                
-                {"name":"GeForce GTX 850M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GeForce GTX 950M", "magic":"compute_50,sm_50", "id": "not set"},
-                {"name":"GeForce GTX 960M", "magic":"compute_50,sm_50", "id": "not set"},
-                
-                {"name":"GeForce GTX TITAN X", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 750", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GeForce 910M", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 950", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 960", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 965M", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 970M", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 980M", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 970", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 980", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"GTX 980M", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"Quadro M5500M", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"Quadro M2000", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"Quadro M2200", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"Quadro M4000", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"Quadro M5000", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"Quadro M6000", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"Tesla M40", "magic":"compute_52,sm_52", "id": "not set"},
-                {"name":"Tesla M60", "magic":"compute_52,sm_52", "id": "not set"},
-                
-                {"name":"Jetson Nano", "magic":"compute_53,sm_53", "id": "not set"},
-                {"name":"Jetson TX1", "magic":"compute_53,sm_53", "id": "not set"},
-                {"name":"Tegra X1", "magic":"compute_53,sm_53", "id": "not set"},
+              "gpus": [
+                {
+                  "name": "GTX 750",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 840M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 845M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 850M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 950M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 960M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M600M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M1000M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M1200",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M520",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
 
-                {"name":"Quadro GP100", "magic":"compute_60,sm_60", "id": "not set"},
-                {"name":"Tesla P100", "magic":"compute_60,sm_60", "id": "not set"},
+                {
+                  "name": "Quadro K2200",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M520",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
 
-                {"name":"Quadro P400", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Quadro P500", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Quadro P600", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Quadro P1000", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Quadro P2000", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Quadro P2200", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Quadro P4000", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Quadro P5000", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Quadro P6000", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"TITAN Xp", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"NVIDIA TITAN X", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"GT 1010", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"GT 1030", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"GTX 1050", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"GTX 1060", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"GTX 1070", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"GTX 1080", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"MX 350", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"P520", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"P620", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Tesla P4", "magic":"compute_61,sm_61", "id": "not set"},
-                {"name":"Tesla P40", "magic":"compute_61,sm_61", "id": "not set"},
-                
-                {"name":"Jetson TX2", "magic":"compute_62,sm_62", "id": "not set"},
+                {
+                  "name": "Quadro M2000M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M620",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 830M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 840M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 930M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 940M",
+                  "magic": "compute_50,sm_50"
+                },
+                {
+                  "name": "GeForce GTX 850M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 950M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 960M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
 
-                {"name":"TITAN V", "magic":"compute_70,sm_70", "id": "not set"},
-                {"name":"Quadro GV100", "magic":"compute_70,sm_70", "id": "not set"},
-                {"name":"NVIDIA V100", "magic":"compute_70,sm_70", "id": "not set"},
-                
-                {"name":"Jetson AGX Xavier", "magic":"compute_72,sm_72", "id": "not set"},
+                {
+                  "name": "GeForce GTX TITAN X",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 750",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 910M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 950",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 960",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 965M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 970M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 980M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 970",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 980",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 980M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M5500M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M2000",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M2200",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M4000",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M5000",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M6000",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M40",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M60",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
 
-                {"name":"GeForce RTX T10-8", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"T 1000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"T 2000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Quadro RTX 3000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Quadro RTX 4000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Quadro RTX 5000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Quadro RTX 6000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Quadro RTX 8000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Quadro T1000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Quadro T2000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"T600", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"T400", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"TITAN RTX", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Tesla T4", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"Tesla T10", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"GTX 1650", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"GTX 1660", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 1650", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 1660", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 2060", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 3000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 4000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 5000", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 2070", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 2080", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"GTX 1660", "magic":"compute_75,sm_75", "id": "not set"},
-                {"name":"RTX 2060", "magic":"compute_75,sm_75", "id": "not set"},
-                
-                {"name":"NVIDIA A100", "magic":"compute_80,sm_80", "id": "not set"},
-                
-                {"name":"RTX 3050", "magic":"compute_86,sm_86", "id": "not set"},
-                {"name":"RTX 3060", "magic":"compute_86,sm_86", "id": "not set"},
-                {"name":"RTX 3070", "magic":"compute_86,sm_86", "id": "not set"},
-                {"name":"RTX 3080", "magic":"compute_86,sm_86", "id": "not set"},
-                {"name":"RTX 3090", "magic":"compute_86,sm_86", "id": "not set"},
-                {"name":"RTX A6000", "magic":"compute_86,sm_86", "id": "not set"},
-                {"name":"RTX A5000", "magic":"compute_86,sm_86", "id": "not set"},
-                {"name":"RTX A4000", "magic":"compute_86,sm_86", "id": "not set"},
-            ]
+                {
+                  "name": "Jetson Nano",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson TX1",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tegra X1",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+
+                {
+                  "name": "Quadro GP100",
+                  "magic": "compute_60,sm_60",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla P100",
+                  "magic": "compute_60,sm_60",
+                  "id": "not set"
+                },
+
+                {
+                  "name": "Quadro P400",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P500",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P600",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P1000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P2000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P2200",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P4000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P5000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P6000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "TITAN Xp",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVIDIA TITAN X",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT 1010",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT 1030",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1050",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1060",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1070",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1080",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX 350",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "P520",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "P620",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla P4",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla P40",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+
+                {
+                  "name": "Jetson TX2",
+                  "magic": "compute_62,sm_62",
+                  "id": "not set"
+                },
+
+                {
+                  "name": "TITAN V",
+                  "magic": "compute_70,sm_70",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro GV100",
+                  "magic": "compute_70,sm_70",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVIDIA V100",
+                  "magic": "compute_70,sm_70",
+                  "id": "not set"
+                },
+
+                {
+                  "name": "Jetson AGX Xavier",
+                  "magic": "compute_72,sm_72",
+                  "id": "not set"
+                },
+
+                {
+                  "name": "GeForce RTX T10-8",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T 1000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T 2000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 3000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 4000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 5000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 6000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 8000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro T1000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro T2000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T600",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T400",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "TITAN RTX",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla T4",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla T10",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1650",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1660",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 1650",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 1660",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2060",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 4000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 5000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2070",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2080",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1660",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2060",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+
+                {
+                  "name": "NVIDIA A100",
+                  "magic": "compute_80,sm_80",
+                  "id": "not set"
+                },
+
+                {
+                  "name": "RTX 3050",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3060",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3070",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3080",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3090",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A6000",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A5000",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A4000",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                // from wikipedia
+                {
+                  "name": "G80",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 8800 Ultra",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 8800 GTX",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 8800 GTS(G80)",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 5600",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 4600",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro Plex 2100 S4",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla C870",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla D870",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla S870",
+                  "magic": "compute_10,sm_10",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT218",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT216",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT215",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 340*",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 330*",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 320*",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 315*",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 310*",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 240",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 220",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 210",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTS 360M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTS 350M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 335M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 330M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 325M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 240M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce G210M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 310M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 305M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 380 Low Profile",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 1800M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 880M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 380M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "Nvidia NVS 300",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 5100M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 3100M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 2100M",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "ION",
+                  "magic": "compute_12,sm_12",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT200",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT200b",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 295",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 285",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 280",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 275",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 260",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 5800",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 4800",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 4800 for Mac",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro FX 3800",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro CX",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro Plex 2200 D2",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla C1060",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla S1070",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M1060",
+                  "magic": "compute_13,sm_13",
+                  "id": "not set"
+                },
+                {
+                  "name": "GF100",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GF110",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 590",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 580",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 570",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 480",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 470",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 465",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 480M",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 6000",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 5000",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 4000",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 4000 for Mac",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro Plex 7000",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 5010M",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 5000M",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla C2075",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla C2050/C2070",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M2050/M2070/M2075/M2090",
+                  "magic": "compute_20,sm_20",
+                  "id": "not set"
+                },
+                {
+                  "name": "GF104",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GF106 GF108",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GF114",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GF116",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GF117",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GF119",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 560 Ti",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 550 Ti",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 460",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTS 450",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTS 450*",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 640 (GDDR3)",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 630",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 620",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 610",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 520",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 440",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 440*",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 430",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 430*",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 420*",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 675M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 670M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 635M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 630M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 625M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 720M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 620M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 710M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 610M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 820M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 580M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 570M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 560M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 555M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 550M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 540M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 525M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 520MX",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 520M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 485M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 470M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 460M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 445M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 435M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 420M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 415M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 710M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 410M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 2000",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 2000D",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 600",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 4000M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 3000M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 2000M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 1000M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 310",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 315",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 5400M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 5200M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 4200M",
+                  "magic": "compute_21,sm_21",
+                  "id": "not set"
+                },
+                {
+                  "name": "GK104",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GK106",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GK107",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 770",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 760",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 740",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 690",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 680",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 670",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 660 Ti",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 660",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 650 Ti BOOST",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 650 Ti",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 650",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 880M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 870M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 780M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 770M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 765M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 760M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 680MX",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 680M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 675MX",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 670MX",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 660M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 750M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 650M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 745M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 645M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 740M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 730M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 640M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 640M LE",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 735M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 730M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K5000",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K4200",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K4000",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K2000",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K2000D",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K600",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K420",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K500M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K510M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K610M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K1000M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K2000M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K1100M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K2100M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K3000M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K3100M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K4000M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K5000M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K4100M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K5100M",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 510",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro 410",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla K10",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GRID K340",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GRID K520",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GRID K2",
+                  "magic": "compute_30,sm_30",
+                  "id": "not set"
+                },
+                {
+                  "name": "GK20A",
+                  "magic": "compute_32,sm_32",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tegra\\xa0K1",
+                  "magic": "compute_32,sm_32",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson\\xa0TK1",
+                  "magic": "compute_32,sm_32",
+                  "id": "not set"
+                },
+                {
+                  "name": "GK110",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GK208",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX Titan Z",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX Titan Black",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX Titan",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 780 Ti",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 780",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 640 (GDDR5)",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 630 v2",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 730",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 720",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 710",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 740M (64-bit,DDR3)",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GT 920M",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K6000",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K5200",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla K40",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla K20x",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla K20",
+                  "magic": "compute_35,sm_35",
+                  "id": "not set"
+                },
+                {
+                  "name": "GK210",
+                  "magic": "compute_37,sm_37",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla K80",
+                  "magic": "compute_37,sm_37",
+                  "id": "not set"
+                },
+                {
+                  "name": "GM107",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GM108",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 750 Ti",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 750",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 960M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 950M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 940M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 930M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 860M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 850M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 845M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 840M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce 830M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K1200",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K2200",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K620",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M2000M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M1000M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M600M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro K620M",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVS 810",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M10",
+                  "magic": "compute_50,sm_50",
+                  "id": "not set"
+                },
+                {
+                  "name": "GM200",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GM204",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GM206",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX Titan X",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 980 Ti",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 980",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 970",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 960",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 950",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 750 SE",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 980M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 970M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 965M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M6000 24GB",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M6000",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M5000",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M4000",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M2000",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M5500",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M5000M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M4000M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro M3000M",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M4",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M40",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M6",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla M60",
+                  "magic": "compute_52,sm_52",
+                  "id": "not set"
+                },
+                {
+                  "name": "GM20B",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tegra\\xa0X1",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson\\xa0TX1",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson\\xa0Nano",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+                {
+                  "name": "DRIVE\\xa0CX",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+                {
+                  "name": "DRIVE\\xa0PX",
+                  "magic": "compute_53,sm_53",
+                  "id": "not set"
+                },
+                {
+                  "name": "GP100",
+                  "magic": "compute_60,sm_60",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro GP100",
+                  "magic": "compute_60,sm_60",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla P100",
+                  "magic": "compute_60,sm_60",
+                  "id": "not set"
+                },
+                {
+                  "name": "GP102",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GP104",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GP106",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GP107",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GP108",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Nvidia TITAN Xp",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Titan X",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 1080 Ti",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1080",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1070 Ti",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1070",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1060",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1050 Ti",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1050",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT 1030",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GT 1010",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX350",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX330",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX250",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX230",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX150",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX130",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX110",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P6000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P5000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P4000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P2200",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P2000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P1000",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P400",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P500",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P520",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P600",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P5000(Mobile)",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P4000(Mobile)",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro P3000(Mobile)",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla P40",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla P6",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla P4",
+                  "magic": "compute_61,sm_61",
+                  "id": "not set"
+                },
+                {
+                  "name": "GP10B[42]",
+                  "magic": "compute_62,sm_62",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tegra\\xa0X2",
+                  "magic": "compute_62,sm_62",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson\\xa0TX2",
+                  "magic": "compute_62,sm_62",
+                  "id": "not set"
+                },
+                {
+                  "name": "DRIVE\\xa0PX\\xa02",
+                  "magic": "compute_62,sm_62",
+                  "id": "not set"
+                },
+                {
+                  "name": "GV100",
+                  "magic": "compute_70,sm_70",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVIDIA TITAN V",
+                  "magic": "compute_70,sm_70",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro GV100",
+                  "magic": "compute_70,sm_70",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla V100",
+                  "magic": "compute_70,sm_70",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla V100S",
+                  "magic": "compute_70,sm_70",
+                  "id": "not set"
+                },
+                {
+                  "name": "GV10B[43]GV11B[44][45]",
+                  "magic": "compute_72,sm_72",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tegra Xavier",
+                  "magic": "compute_72,sm_72",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson Xavier NX",
+                  "magic": "compute_72,sm_72",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson AGX Xavier",
+                  "magic": "compute_72,sm_72",
+                  "id": "not set"
+                },
+                {
+                  "name": "DRIVE AGX Xavier",
+                  "magic": "compute_72,sm_72",
+                  "id": "not set"
+                },
+                {
+                  "name": "DRIVE AGX Pegasus",
+                  "magic": "compute_72,sm_72",
+                  "id": "not set"
+                },
+                {
+                  "name": "Clara AGX",
+                  "magic": "compute_72,sm_72",
+                  "id": "not set"
+                },
+                {
+                  "name": "TU102",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "TU104",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "TU106",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "TU116",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "TU117",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "NVIDIA TITAN RTX",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce RTX 2080 Ti",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2080 Super",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2080",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2070 Super",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2070",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2060 Super",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2060 12GB",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2060",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce GTX 1660 Ti",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1660 Super",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1660",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1650 Super",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GTX 1650",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX550",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX450",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 8000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 6000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 5000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro RTX 4000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T1000",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T600",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T400T1200(mobile)",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T600(mobile)",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "T500(mobile)",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro T2000(mobile)",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Quadro T1000(mobile)",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "Tesla T4",
+                  "magic": "compute_75,sm_75",
+                  "id": "not set"
+                },
+                {
+                  "name": "GA100",
+                  "magic": "compute_80,sm_80",
+                  "id": "not set"
+                },
+                {
+                  "name": "A100 80GB",
+                  "magic": "compute_80,sm_80",
+                  "id": "not set"
+                },
+                {
+                  "name": "A100 40GB",
+                  "magic": "compute_80,sm_80",
+                  "id": "not set"
+                },
+                {
+                  "name": "A30",
+                  "magic": "compute_80,sm_80",
+                  "id": "not set"
+                },
+                {
+                  "name": "GA102",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "GA103",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "GA104",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "GA106",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "GA107",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce RTX 3090 Ti",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3090",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3080 Ti",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3080 12GB",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3080",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3070 Ti",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3070",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3060 Ti",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3060",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3050",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3050 Ti(mobile)",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 3050(mobile)",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 2050(mobile)",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "MX570",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A6000",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A5500",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A5000",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A4500",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A4000",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A2000 RTX A5000(mobile)",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A4000(mobile)",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A3000(mobile)",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX A2000(mobile)",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "A40",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "A16",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "A10",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "A2",
+                  "magic": "compute_86,sm_86",
+                  "id": "not set"
+                },
+                {
+                  "name": "GA10B",
+                  "magic": "compute_87,sm_87",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson Orin Nano",
+                  "magic": "compute_87,sm_87",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson Orin NX",
+                  "magic": "compute_87,sm_87",
+                  "id": "not set"
+                },
+                {
+                  "name": "Jetson AGX Orin",
+                  "magic": "compute_87,sm_87",
+                  "id": "not set"
+                },
+                {
+                  "name": "DRIVE AGX Orin",
+                  "magic": "compute_87,sm_87",
+                  "id": "not set"
+                },
+                {
+                  "name": "DRIVE\\xa0AGX\\xa0Pegasus\\xa0OA",
+                  "magic": "compute_87,sm_87",
+                  "id": "not set"
+                },
+                {
+                  "name": "Clara Holoscan",
+                  "magic": "compute_87,sm_87",
+                  "id": "not set"
+                },
+                {
+                  "name": "AD102",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "AD103",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "AD104",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "AD106",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "AD107",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "GeForce RTX 4090",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 4080",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 4070 Ti",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 4070",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "RTX 6000 Ada",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "L40",
+                  "magic": "compute_89,sm_89",
+                  "id": "not set"
+                },
+                {
+                  "name": "GH100",
+                  "magic": "compute_90,sm_90",
+                  "id": "not set"
+                },
+                {
+                  "name": "H100",
+                  "magic": "compute_90,sm_90",
+                  "id": "not set"
+                }
+              ]
         }
     ]
 };

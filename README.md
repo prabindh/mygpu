@@ -25,7 +25,13 @@ Obtain compute capability information about Nvidia GPU
 
 ### Browser <a name="browser"></a>
 
-Browse to this link - https://gpupowered.org/mygpu/
+Browse to one of the below links - 
+
+https://gpupowered.org/mygpu/
+
+Or 
+
+https://prabindh.github.io/mygpu/
 
 The compute information will be displayed in the same page
 

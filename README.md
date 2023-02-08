@@ -14,6 +14,8 @@ Obtain compute capability information about Nvidia GPU
 
 - WebGL supported browser
 
+On Edge canary, sometimes, the Vulkan backend is used making the Nvidia driver invisible. Using the option "--use-angle=d3d11on12" is a remedy (2023).
+
 - Nvidia GPU and recent drivers
 
 -- On Hybrid systems/ notebooks with multiple GPUs - Refer https://alteredqualia.com/texts/optimus/ 

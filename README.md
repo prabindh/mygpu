@@ -1,6 +1,6 @@
 # mygpu
 
-Obtain compute capability information about Nvidia GPU
+Obtain CUDA compute capability information about Nvidia GPU installed
 
 # Table of contents
 1. [Requirements](#reqs)
@@ -23,7 +23,7 @@ On Edge canary, sometimes, the Vulkan backend is used making the Nvidia driver i
 -- On Tegra systems, Chrome seems to be using SwiftShader by default, so perform the manual step of identification (#manual)
 
 
-## How to get compute capability <a name="howto"></a>
+## How to get CUDA compute capability <a name="howto"></a>
 
 ### Browser <a name="browser"></a>
 
@@ -35,7 +35,7 @@ Or
 
 https://prabindh.github.io/mygpu/
 
-The compute information will be displayed in the same page
+The CUDA compute information will be displayed in the same page
 
 ![Screenshot](./mygpu.png)
 

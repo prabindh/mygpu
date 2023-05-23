@@ -18,9 +18,11 @@ On Edge canary, sometimes, the Vulkan backend is used making the Nvidia driver i
 
 - Nvidia GPU and recent drivers
 
--- On Hybrid systems/ notebooks with multiple GPUs - Refer https://alteredqualia.com/texts/optimus/ 
+### Note
 
--- On Tegra systems, Chrome seems to be using SwiftShader by default, so perform the manual step of identification (#manual)
+- On Hybrid systems/ notebooks with multiple GPUs, force application to use Nvidia GPU - Refer https://alteredqualia.com/texts/optimus/ 
+
+- On Tegra systems, Chrome seems to be using SwiftShader by default, so perform the manual step of identification (#manual)
 
 
 ## How to get CUDA compute capability <a name="howto"></a>
@@ -41,7 +43,9 @@ The CUDA compute information will be displayed in the same page
 
 ### Manually <a name="manual"></a>
 
-Obtain the name of the GPU by running below command on command line
+`nvidia-smi --query-gpu=compute_cap --format=csv`
+
+Or, Obtain the name of the GPU by running below command on command line
 
 `nvidia-smi --query-gpu=name --format=csv`
 

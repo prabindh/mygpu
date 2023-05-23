@@ -1060,12 +1060,7 @@ mygpulist =
           "id": "not set"
         },
         {
-          "name": "GeForce GT 740M (64-bit",
-          "magic": "compute_35,sm_35",
-          "id": "not set"
-        },
-        {
-          "name": "DDR3)",
+          "name": "GeForce GT 740M (64-bit DDR3)",
           "magic": "compute_35,sm_35",
           "id": "not set"
         },

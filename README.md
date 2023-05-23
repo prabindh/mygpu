@@ -1,6 +1,6 @@
 # mygpu
 
-Obtain CUDA compute capability information about Nvidia GPU installed
+Obtain CUDA compute capability information for the locally installed Nvidia GPU, from browser. The compute capability is generally required as input for projects that use CUDA builds.
 
 # Table of contents
 1. [Requirements](#reqs)

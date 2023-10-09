@@ -195,11 +195,6 @@ mygpulist =
           "id": "not set"
         },
         {
-          "name": "ION",
-          "magic": "compute_12,sm_12",
-          "id": "not set"
-        },
-        {
           "name": "GT200",
           "magic": "compute_13,sm_13",
           "id": "not set"

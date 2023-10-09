@@ -45,6 +45,10 @@ The CUDA compute information will be displayed in the same page
 
 `nvidia-smi --query-gpu=compute_cap --format=csv`
 
+This will output in the format
+compute_cap 8.6
+
+
 Or, Obtain the name of the GPU by running below command on command line
 
 `nvidia-smi --query-gpu=name --format=csv`

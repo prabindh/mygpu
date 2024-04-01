@@ -2113,7 +2113,12 @@ mygpulist =
           "name": "H100",
           "magic": "compute_90,sm_90",
           "id": "not set"
-        }
+        },
+        {"name": "H200", "magic": "compute_90,sm_90", "id": "not set"},
+        {"name": "GB100", "magic": "compute_100,sm_100", "id": "not set"},
+        {"name": "B100", "magic": "compute_100,sm_100", "id": "not set"},
+        {"name": "GB202", "magic": "compute_10x,sm_10x", "id": "not set"},
+        {"name": "B40", "magic": "compute_10x,sm_10x", "id": "not set"}
       ]
     }
 
